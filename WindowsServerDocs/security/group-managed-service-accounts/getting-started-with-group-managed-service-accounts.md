@@ -149,7 +149,7 @@ Membership in **Domain Admins** or the  ability to create msDS-GroupManagedServi
     |Parameter|String|Example|
     |-------|-----|------|
     |Name|Name of the account|ITFarm1|
-    |DNSHostName|DNS host name of service|ITFarm1.contoso.com|
+    |DNSHostName|DNS host name (FQDN) of the account|ITFarm1.contoso.com|
     |KerberosEncryptionType|Any encryption types supported by the host servers|None, RC4, AES128, AES256|
     |ManagedPasswordIntervalInDays|Password change interval in days (default is 30 days if not provided)|90|
     |PrincipalsAllowedToRetrieveManagedPassword|The computer accounts of the member hosts or the security group that the member hosts are a member of|ITFarmHosts|
